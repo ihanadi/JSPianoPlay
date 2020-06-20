@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Piano Sounds 01</title>
+</head>
+<body>
+    <div class="keys">
+        <div class="key" data-key="65">
+            <p>A</p>
+            <span data->Piano A</span>
+        </div>
+        <div class="key" data-key="83">
+            <p>S</p>
+            <span>Piano S</span>
+        </div>
+        <div class="key" data-key="68">
+            <p>D</p>
+            <span>Piano D</span>
+        </div>
+        <div class="key" data-key="70">
+            <p>F</p>
+            <span>Piano F</span>
+        </div>
+        <div class="key" data-key="71">
+            <p>G</p>
+            <span>Piano G</span>
+        </div>
+        <div class="key" data-key="72">
+            <p>H</p>
+            <span>Piano H</span>
+        </div>
+        <div class="key" data-key="74">
+            <p>J</p>
+            <span>Piano J</span>
+        </div>
+        <div class="key" data-key="75">
+            <p>K</p>
+            <span>Piano K</span>
+        </div>
+        <div class="key" data-key="76">
+            <p>L</p>
+            <span>Piano L</span>
+        </div>
+    </div>
+
+    <audio data-key="65" src="sounds/a3.wav"> clap</audio>
+    <audio data-key="83" src="sounds/a3-8.wav"></audio>
+    <audio data-key="68" src="sounds/Ex_01.mp3"></audio>
+    <audio data-key="70" src="sounds/Kawai_fourth_A_D.mp3"></audio>
+    <audio data-key="71" src="sounds/Kawai_middle_C.mp3"></audio>
+    <audio data-key="72" src="sounds/PianoKeyC5.mp3"></audio>
+    <audio data-key="74" src="sounds/PianoKeyC6.mp3"></audio>
+    <audio data-key="75" src="sounds/sound3.wav"></audio>
+    <audio data-key="76" src="sounds/piano5.wav"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
